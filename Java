@@ -1,0 +1,19 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Browsers {
+	
+	/**
+	 * @param args
+	 */
+public static void main(String[] args) {
+	
+	FirefoxDriver d1 = new FirefoxDriver();
+	d1.get("http://cnnmoney.com");
+	
+	By.id("(id('navmarkets')");
+	
+}
+
+}
